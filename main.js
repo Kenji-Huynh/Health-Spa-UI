@@ -463,7 +463,7 @@ function createFallingObjects() {
     object.style.left = `${xPos}px`;
 
     // Thiết lập thời gian animation ngẫu nhiên (5-15 giây)
-    const duration = Math.random() * 10 + 5;
+    const duration = Math.random() * 10 + 15;
     object.style.animationDuration = `${duration}s`;
 
     // Tạo độ trễ ngẫu nhiên để các đối tượng không xuất hiện cùng lúc
